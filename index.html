@@ -5,47 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Counter Example</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
-    <script>
-        (() => {
-            const application = Stimulus.Application.start()
 
-            application.register("counter", class extends Stimulus.Controller {
-                static get targets() {
-                    return [ "output" ]
-                }
-                
-                initialize(){
-                    // console.log("initialize", this.data.get('count'));
-                    // console.log("initialize", this.count);
-                    // this.outputTarget.textContent = this.data.get('count')
-                    this.outputTarget.textContent = this.count
-                }
-                
-                increment(){
-                    console.log("increment");
-                    this.count++
-                    // this.data.set("count", this.outputTarget.textContent++)
-                }
-                decrement(){
-                    console.log("decrement");
-                    this.count--
-                    // this.data.set("count", this.outputTarget.textContent--)
-                }
-                
-                // getter
-                get count(){
-                    return this.data.get("count")
-                }
-                
-                // setter
-                set count(value){
-                    this.data.set("count", value)
-                    this.outputTarget.textContent = this.count
-                }
-            })
-        })()
-    </script>
+    <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/counter_controller.js"></script>
 </head>
 <body>
     <div class="container mx-auto">

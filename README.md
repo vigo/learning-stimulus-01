@@ -1,4 +1,5 @@
 ![JavaScript](https://img.shields.io/badge/javascript-vanilla-yellow.svg)
+![Version](https://img.shields.io/badge/version-0.0.0-yellow.svg)
 
 # Learning Stimulus - Example 01
 
@@ -6,6 +7,16 @@ Basic counter example with pure/vanilla JavaScript that includes what I’ve
 learned from [egghead.io][link]
 
 ![Example](screens/counter-example.gif "click buttons to increase/decreate number...")
+
+---
+
+## What’s New ?
+
+**November 29, 2020, Corona Days**
+
+- Create project
+- Add js folder structure (*not sure if this is the correct way?*)
+- Add versioning :)
 
 ---
 
