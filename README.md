@@ -1,5 +1,5 @@
 ![JavaScript](https://img.shields.io/badge/javascript-vanilla-yellow.svg)
-![Version](https://img.shields.io/badge/version-0.0.0-yellow.svg)
+![Version](https://img.shields.io/badge/version-0.0.0-orange.svg)
 
 # Learning Stimulus - Example 01
 
